@@ -1,0 +1,181 @@
+body {
+	overflow-x: hidden;
+    margin-top: -9px;
+	background-color: #444444;
+}
+
+
+#header {
+	height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0 1px 0 #333333;
+	background-color: #333333;
+    background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#3F3F3F), to(#222222));
+    background-image: -webkit-linear-gradient(top, #3F3F3F 0%, #222222 100%);
+    background-image: -moz-linear-gradient(top, #3F3F3F 0%, #222222 100%);
+	background-image: -ms-linear-gradient(top, #3F3F3F 0%, #222222 100%);
+	background-image: -o-linear-gradient(top, #3F3F3F 0%, #222222 100%);
+	background-image: linear-gradient(top, #3F3F3F 0%, #222222 100%);
+    border-bottom: 1px solid #555555;
+}
+
+#sidebar {
+    display: block;
+    float: left;
+    position: fixed;
+    width: 0px;
+    z-index: 16;
+    padding-top: 60px;
+}
+
+#sidebar > ul {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+	position: absolute;
+	width: 100px;
+	border-top: 1px solid #393939;
+	border-bottom: 1px solid #4E4E4E;
+}
+
+#sidebar > ul > li {
+	line-height: 40px;
+	display: block;	
+	position: relative;
+	border-top: 1px solid #4E4E4E;
+	border-bottom: 1px solid #393939;
+	text-align: center;
+}
+
+#sidebar > ul > li.active {
+    background-color: #3a3a3a;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#333333), to(#2A2A2A));
+	background-image: -webkit-linear-gradient(top, #333333 0%, #2A2A2A 100%);
+	background-image: -moz-linear-gradient(top, #333333 0%, #2A2A2A 100%);
+	background-image: -ms-linear-gradient(top, #333333 0%, #2A2A2A 100%);
+	background-image: -o-linear-gradient(top, #333333 0%, #2A2A2A 100%);
+	background-image: linear-gradient(top, #333333 0%, #2A2A2A 100%);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2) inset;
+}
+
+#sidebar > ul > li.active > a > span {
+	color: #CDCDCD;	
+	font-weight: bold;
+	width: 100px;
+}
+
+#sidebar > ul > li > a {
+	text-decoration: none;
+	padding: 10px 0 0px 5px;
+	display: block;
+	color: #AAAAAA;
+
+}
+
+#sidebar > ul > li.active > a {
+	background: url("../img/pointer2.png") no-repeat scroll right center transparent !important;
+}
+
+#sidebar > ul > li > a > i {
+	margin-right: 10px;
+	vertical-align: top;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+}
+
+#sidebar > ul > li > a > img {
+	margin-right: 0px;
+	vertical-align: top;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+
+#sidebar > ul > li > a > img.profile {
+	padding: 3px;
+	background-color: #1D1D1D;
+	/*-moz-box-shadow: 0px 0px 10px black;
+	-webkit-box-shadow: 0px 0px 10px black;
+	box-shadow: -5px 5px 10px 	black;*/
+	margin-right: 0px;
+	vertical-align: top;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+
+
+#mainframe {
+	background: none repeat scroll 0 0 #ECECEC;
+    margin-left: 100px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    position: relative;
+    min-height: 1000px;
+    width: auto;
+    height: auto !important;
+    -webkit-background-clip: padding-box;
+    border-top-left-radius: 8px;
+    z-index: 1;
+}
+
+
+#mainframe > div > div {
+	margin-top: 60px;
+	text-align: center;
+	position: relative;
+    width: auto;
+    height: auto !important;    
+}
+
+#mainframe > div > div > ul > li  {
+	
+	position: relative;
+	text-align: center;
+	
+	padding-right: 10px;
+     
+}
+
+#picture {
+	width: 190px;
+	height: 190px;
+	margin-left: 0px;
+}
+
+#picture > a  {
+	
+	text-decoration: none;
+	border: 0px;
+}
+
+#picture > a > div {
+	background: #000;
+	background: -webkit-gradient(linear, center top, center bottom, from(transparent), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .7));
+	bottom: 0;	
+	color: #fff;
+	display: block;
+	left: 10;
+	margin-bottom: 14px;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 89.6%;
+	word-wrap:break-word;	
+}
+
+#picture > a > div > div {
+	margin: 5px;
+}
+
+
+#picture > a > img {
+	-moz-box-shadow: 0px 0px 5px 3px #cce6ff;
+	-webkit-box-shadow: 0px 0px 5px 3px #cce6ff ;
+	box-shadow: 0px 0px 5px 3px #cce6ff ;
+
+}
