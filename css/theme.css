@@ -68,7 +68,7 @@ body {
 
 #sidebar > ul > li > a {
 	text-decoration: none;
-	padding: 10px 0 0px 5px;
+	padding: 10px 0px 0px 0px;
 	display: block;
 	color: #AAAAAA;
 
@@ -131,28 +131,41 @@ body {
     height: auto !important;    
 }
 
-#mainframe > div > div > ul > li  {
+#mainframe
+.picturesqq  {
 	
-	position: relative;
-	text-align: center;
-	
+	position: relative;	
 	padding-right: 10px;
-     
-}
-
-#picture {
 	width: 190px;
 	height: 190px;
 	margin-left: 0px;
+	margin-bottom: 20px;
+     
 }
 
-#picture > a  {
-	
+
+.thumbnail  {	
 	text-decoration: none;
 	border: 0px;
 }
 
-#picture > a > div {
+
+.imag {
+	-moz-box-shadow: 0px 0px 5px 3px #cce6ff;
+	-webkit-box-shadow: 0px 0px 5px 3px #cce6ff ;
+	box-shadow: 0px 0px 5px 3px #cce6ff ;
+
+}
+
+.imag:hover {
+	-moz-box-shadow: 0px 0px 7px 8px #cce6ff;
+	-webkit-box-shadow: 0px 0px 7px 8px #cce6ff ;
+	box-shadow: 0px 0px 7px 8px #cce6ff ;
+	border: 1px solid black;
+
+}
+
+.nameBox {
 	background: #000;
 	background: -webkit-gradient(linear, center top, center bottom, from(transparent), to(rgba(0, 0, 0, .7)));
 	background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .7));
@@ -160,22 +173,163 @@ body {
 	color: #fff;
 	display: block;
 	left: 10;
-	margin-bottom: 14px;
+	margin-bottom: 13px;
 	margin-top: 0px;
 	padding-top: 0px;
 	position: absolute;
-	width: 89.6%;
+	width: 60.6%;
 	word-wrap:break-word;	
+	text-align: left;
 }
 
-#picture > a > div > div {
-	margin: 5px;
+.nameBox2 {
+	background: #000;
+	background: -webkit-gradient(linear, center top, center bottom, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(rgb	a(0, 0, 0, .7)	, rgba(0, 0, 0, .4));
+	bottom: 0;	
+	color: #fff;
+	display: block;
+	left: 10;
+	margin-bottom: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 60.6%;
+	word-wrap:break-word;	
+	text-align: left;
 }
 
 
-#picture > a > img {
-	-moz-box-shadow: 0px 0px 5px 3px #cce6ff;
-	-webkit-box-shadow: 0px 0px 5px 3px #cce6ff ;
-	box-shadow: 0px 0px 5px 3px #cce6ff ;
+
+.name {
+	margin-left: 2px;
+}
+
+.starBox {
+	background: #000;
+	background: -webkit-gradient(linear, center top, center bottom, from(transparent), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .7));
+	bottom: 0;	
+	color: #fff;
+	display: block;
+	margin-left: 115px;
+	margin-bottom: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 30%;
+	word-wrap:break-word;	
+	text-align: right;
+}
+
+.starBox2 {
+	background: #000;
+	background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .4) );
+	bottom: 0;	
+	color: #fff;
+	display: block;
+	margin-left: 115px;
+	margin-bottom: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: absolute;
+	width: 30%;
+	word-wrap:break-word;	
+	text-align: right;
+}
+
+.stars {
+	text-align: right;
+	margin-right: 2px;
+}
+
+.dateBox {
+	background: #000;
+	background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .4) );
+	top: 0;	
+	color: #fff;
+	display: block;
+	left: 10;
+	margin-top: 4px;
+	padding-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	width: 90.5%;
+	word-wrap:break-word;	
+	text-align: center;
+	font-size: 17px;
+	border:1px solid black;
+}
+
+.dateText {
+	margin-left: 2px;
+}
+
+
+ 
+.modal {
+	background-color: #2A2A2A;
+	min-height: 500px;
+	min-width: 750px;
+}
+
+.modalHomeHeader {
+	border-bottom: 0px;
+	background-color: #121212;	
+}
+
+.modalHomeFooter {
+	border-top: 0px;
+	box-shadow: 0px 0px 0px;
+	background-color: #121212;	
+}
+
+.modalHeadText {
+	color:#898989;
+	font-size: 23px;
+}
+
+.pre-scrollable {
+	max-height: 100px;
+}
+
+.smallThumb {
+	margin-left: 0px;
+	max-width: 70px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	
+}
+
+.smallImage {
+	border: 2px solid black;
+}
+
+.mutualFriends {
+	color: #CCCCCC;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.imageGallery {
+	min-height: 300px;
+}
+
+.mainImage {
+	max-height: 300px;
+	max-width: 300px;
+	-moz-box-shadow: 5px 5px 15px 5px #000;
+	-webkit-box-shadow: 5px 5px 15px 5px #000 ;
+	box-shadow: 5px 5px 15px 5px #000 ;
+}
+
+.sideImage {
+	position: relative;
+	max-height: 80px;
+	max-width: 80px;
+	margin-left: 10px;
+	border: 2px solid black;
 
 }
