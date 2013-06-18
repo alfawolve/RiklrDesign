@@ -224,8 +224,8 @@ body {
 
 .starBox2 {
 	background: #000;
-	background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
-	background: -webkit-linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .4) );
+	background: -webkit-gradient(linear, center top, center bottom, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(rgb	a(0, 0, 0, .7)	, rgba(0, 0, 0, .4));
 	bottom: 0;	
 	color: #fff;
 	display: block;
@@ -299,18 +299,32 @@ body {
 	margin-left: 0px;
 	max-width: 70px;
 	margin-right: 5px;
-	margin-bottom: 2px;
-	
+	margin-bottom: 2px;	
 }
 
 .smallImage {
 	border: 2px solid black;
 }
 
+.mutualFriendsImages {
+	margin-top: 0px;
+	z-index: 10;
+	-moz-box-shadow: 0px 0px 7px 8px black inset;
+	-webkit-box-shadow: 0px 0px 7px 8px black inset;
+	box-shadow: 0px 0px 7px 8px black inset;
+
+}
+
+.thumbnails {
+	margin-top: 0px;
+	z-index: -5;
+}
+
 .mutualFriends {
 	color: #CCCCCC;
 	font-size: 15px;
 	margin-left: 10px;
+
 }
 
 .imageGallery {
