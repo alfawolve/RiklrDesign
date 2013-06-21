@@ -6,10 +6,10 @@ body {
 
 
 #header {
-	height: 60px;
+	height: 50px;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 13;
     box-shadow: 0 1px 0 #333333;
 	background-color: #333333;
     background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#3F3F3F), to(#222222));
@@ -19,6 +19,52 @@ body {
 	background-image: -o-linear-gradient(top, #3F3F3F 0%, #222222 100%);
 	background-image: linear-gradient(top, #3F3F3F 0%, #222222 100%);
     border-bottom: 1px solid #555555;
+}
+
+.headerContainer {
+	position: absolute;
+}
+
+#riklrTitle {
+	text-align: center;
+	z-index: 20;
+}
+
+#riklrTitle > img {
+	margin-top: 6px;
+	max-height: 35px;
+	position: absolute;	
+}
+
+.iconSettings {
+	margin-top: 10px;
+	margin-right: 10px; 
+	position: absolute;
+}
+
+.notifNumber {
+	margin-top: -20px;
+	margin-left: 20px; 
+}
+
+
+#filterbar {
+	position: absolute;
+	margin-top: 60px;
+	margin-right: 5px;
+	margin-left: 100px;
+	width: 100%;
+	height:45px;
+	background-color: #e2e2e2;
+	background-image: -moz-linear-gradient(top, #eeeeee, #e2e2e2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#e2e2e2));
+	background-image: -webkit-linear-gradient(top, #eeeeee, #e2e2e2);
+	background-image: -o-linear-gradient(top, #eeeeee, #e2e2e2);
+	background-image: linear-gradient(to bottom, #eeeeee, #e2e2e2);
+	background-repeat: repeat-x;
+	text-shadow:0 1px 0 rgba(255,255,255,0.6);
+	border-bottom:1px solid #c1c1c1;
+	z-index: 10;
 }
 
 #sidebar {
@@ -112,6 +158,7 @@ body {
 	background: none repeat scroll 0 0 #ECECEC;
     margin-left: 100px;
     margin-right: 5px;
+    padding-top: 10px;
     padding-bottom: 0px;
     position: relative;
     min-height: 1000px;
@@ -173,7 +220,8 @@ body {
 .cornerImage {	
 	position: absolute;
 	z-index: 5;
-	padding-left: 142px;
+	padding-left: 130px;
+	margin-top: -11px;
 }
 
 .nameBox {
