@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Riklr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="bootstrap/img/glyphicons-halflings.png">
+    <link rel="shortcut icon" href="bootstrap/img/glyphicons-halflings-white.png">
+    <script>$('.dropdown-toggle').dropdown();</script> 
+  </head>
+
+  <body>
+
+    <div id = "header">
+
+     <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container" style="width:95%;">
+         
+         <div id = "riklrTitle">
+        <img img src="img/riklr4.png">
+      </div>
+    </div>
+                    
+        <ul class="nav pull-right">
+          <li class="dropdown pull-right">
+            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-wrench icon-white"></i><b class="caret"></b></a>
+            <ul class="dropdown-menu ">
+                <li><a href="#" onClick="logout();">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav pull-right">
+          <li class="dropdown pull-right">
+            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-bell icon-white"></i><div class = "notifNumber">(3)</div></a>
+            <ul class="dropdown-menu ">
+                <li><a href="#" onClick="logout();">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="nav pull-right">
+          <li class="dropdown pull-right">
+            <a href="#" class=" dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-comment icon-white"></i><div class = "notifNumber">(5)</div></a>
+            <ul class="dropdown-menu ">
+                <li><a href="#" onClick="logout();">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+      
+
+    <!-- <div id = "filterbar">
+
+    </div> -->
+
+    <div id = "sidebar">
+
+      <ul style = "display: block;">       
+        
+        <li><a href="#"><img class = "profile" src="img/profile.png"><span>Profile</span></a></li>
+
+        <li><a href="#"><img  src="img/home.png"><span>Home</span></a></li>
+
+        <li class = "active"><a href="#"><img  src="img/chat-icon.png"><span>Messages</span></a></li>
+
+        <li><a href="#"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
+
+        <li><a href="#"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>         
+
+      </ul>
+
+    </div>
+
+      <div id = "mainframe">
+        <div class = "container-fluid chatCover">
+
+          
+            
+            <div class = "chatBody">
+              
+              <div class = "conversation">
+
+                <span class = "dayLabelCSS label">
+                  24 June
+                </span>
+
+                <div class = "leftUser">
+                  
+                        <img class = "chatProfilePicThumbLeft" src="img/profile.png">
+                        
+                        <div class = "chatMessageLeft">
+
+                          <div class = "arrowLeft">
+                          </div>
+                          <p>
+                             Hey There!! I'm so glad we got matched, lets have an awesome talk so that I can get you in my bed.
+                             <img class = "smileyIcon" img src="img/smileys/smile.png">
+                          </p>
+                          <p>
+                            <small>2:15 PM</small>
+                          </p>
+
+                        </div>
+                </div>
+
+                <div class = "rightUser">
+                  
+                        <img class = "chatProfilePicThumbRight" src="img/girlanon.png">
+                        
+                        <div class = "chatMessageRight">
+
+                          <div class = "arrowRight">
+                          </div>
+                          <p>
+                             Hiiiiii !!
+                             <img class = "smileyIcon" img src="img/smileys/girl.png">
+                             Omg! I'm so excited!! How're you? omg omg omg!.
+                          </p>
+                          <p>
+                            <small>2:15 PM</small>
+                          </p>
+
+                        </div>
+                </div>
+
+
+
+               <div class = "leftUser">
+                  
+                        <img class = "chatProfilePicThumbLeft" src="img/profile.png">
+                        
+                        <div class = "chatMessageLeft">
+
+                          <div class = "arrowLeft">
+                          </div>
+                          <p>
+                             Omg!!<img class = "smileyIcon" img src="img/smileys/big-grin.png">
+                              you actually replied!!
+                             <img class = "smileyIcon" img src="img/smileys/smile.png">
+
+                          </p>
+                          <p>
+                            <small>2:15 PM</small>
+                          </p>
+
+                        </div>
+                </div>
+
+                <span class = "dayLabelCSS label">
+                  25 June
+                </span>
+
+
+                <div class = "leftUser">
+                  
+                        <img class = "chatProfilePicThumbLeft" src="img/profile.png">
+                        
+                        <img class = "sticker" img src="img/stickers/heartBreakMale.png">
+
+
+                          <p>
+                            <small>2:15 PM</small>
+                          </p>
+
+                        
+                </div>
+
+                <div class = "leftUser">
+                  
+                        <img class = "chatProfilePicThumbLeft" src="img/profile.png">
+                        
+                        <div class = "chatMessageLeft">
+
+                          <div class = "arrowLeft">
+                          </div>
+                          <p>
+                             Where are you? why haven't you replied... Ohh I'm so heartbroken!
+                             <img class = "smileyIcon" img src="img/smileys/sad.png">
+                          </p>
+                          <p>
+                            <small>2:15 PM</small>
+                          </p>
+
+                        </div>
+                </div>
+
+
+              </div>
+
+              
+              <div class = "textCover" >
+                <form class = "formCover">
+                  <div class="row-fluid">
+                        <textarea rows="4" class="span12 enterMessage" style="" placeholder="Write your reply..."></textarea>
+
+                        <div class="enterMessageNavbar navbar">
+                          <div class="navbar-inner">
+                            <div class="container row-fluid">
+                              <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                              <!-- Be sure to leave the brand out there if you want it shown -->
+                                <div class="span9 offset6">
+                                
+                                  <div class="smileyButtonGroup btn-group dropup">
+                                    <button class="smileyButton btn dropdown-toggle clearfix" data-toggle="dropdown" style = "margin-top: 5px;">
+                                      
+                                        <img class = "smileyIcon" img src="img/smileys/smile.png">
+                                      
+                                      <span class="caret">
+                                      </span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" style="overflow-y: auto;">
+                                          
+                                    </ul>
+                                  </div>
+                                
+                                  <button class="replyButton btn btn-medium btn-info"  type="button" onclick="post_conff()">Reply
+                                  </button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </form>
+              </div>
+              
+
+            </div>
+          
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Modal header</h3>
+              </div>
+              <div class="modal-body">
+                <p>One fine body…</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+
+
+   </body>
+</html>

@@ -137,7 +137,7 @@ body {
 	vertical-align: top;
 	display: inline-block;
 	width: 70px;
-	height: 70px;
+	max-height: 70px;
 }
 
 #sidebar > ul > li > a > img.profile {
@@ -415,4 +415,178 @@ body {
 	max-width: 80px;
 	margin-left: 10px;
 	border: 2px solid black;
+}
+
+
+/*chatPage*/
+
+.chatCover {
+	margin-top: 10px;
+	height: 100%;
+}
+
+.chatBody {
+	left: 50%;
+	margin-left: -350px;
+	min-width: 700px;
+	max-width: 700px;
+	border: 1px solid #C0C0C0;
+}
+
+.conversation {
+	
+	height: 450px;
+	background-color: white;
+	
+	overflow-y: scroll;
+}
+
+.dayLabelCSS {
+	margin-bottom:15px; 
+}
+
+.textCover {
+	border-top: 1px solid #C0C0C0;
+	background: #DCDCE8; 
+	width:99.9%; 
+	padding-top:0px; 
+	margin-bottom: -20px;
+	background-color: #ECECEC;
+	
+	/*box-shadow: 0px 0px 10px #171717;*/
+}
+
+.formCover {
+	padding: 10px;
+
+}
+
+.enterMessage {
+	width: 90%;
+	resize: none; 
+	border-top-left-radius: 0px; 
+	border-top-right-radius: 0px; 
+	border-bottom-right-radius: 0px; 
+	border-bottom-left-radius: 0px; 
+	margin: 0px auto; 
+	height: 70px;
+}
+
+.enterMessageNavbar {
+	margin-left: 0px; 
+	margin-bottom: 0px;
+	display: block;
+}
+
+.smileyButtonGroup {
+	height: 40px;
+}
+
+.smileyButton {
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.smileyIcon {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 30px;
+}
+
+.replyButton {
+
+	height: 32px;
+	margin-right: 20px;
+}
+
+.leftUser {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	z-index: 0;
+}
+
+
+.chatMessageLeft {
+	margin-left: 72px;
+	padding: 6px;
+	display: block;
+	background:#EFEFEF; 
+	position: relative;
+	border-radius: 3px;	
+	max-width: 590px;
+	text-align: left;
+	font-size: 15px;
+}
+
+.arrowLeft {
+	position: absolute;
+	top:25%;
+	left: -11px;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #EFEFEF; 
+}
+
+.chatProfilePicThumbLeft {
+
+	position: absolute;
+	margin-left: 10px;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.9);
+ 
+}
+
+.rightUser {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	z-index: 0;
+}
+
+.chatProfilePicThumbRight {
+	position: absolute;
+	margin-right: 10px;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.9);
+}
+
+.chatMessageRight {
+	margin-right: 72px;
+	margin-left: 10px;
+	padding: 6px;
+	display: block;
+	background:rgb(88, 156, 168); 
+	position: relative;
+	border-radius: 3px;	
+	text-align: right;
+	font-size: 15px;
+	color: white;
+}
+
+.arrowRight {
+	position: absolute;
+	top:25%;
+	right: -11px;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-left:10px solid rgb(88, 156, 168) ; 
+}
+
+.sticker {
+	margin-left: -220px;
+	max-width: 200px;
 }
