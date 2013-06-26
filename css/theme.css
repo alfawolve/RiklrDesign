@@ -642,6 +642,17 @@ body {
 	font-size: 27px;/* / 1.3 'DINLight','Helvetica Neue',Helvetica,Arial,sans-serif;*/
 }
 
+
+.text0 {
+	position: absolute;
+	right: 0;
+	color:  rgb(2, 178, 185);
+	margin-top: 309px;
+	margin-right: 377px;
+	font-family: Lucida Sans Unicode;
+	font-size: 67px;
+}
+
 .text1 {
 	position: absolute;
 	color: rgb(38, 67, 87);
