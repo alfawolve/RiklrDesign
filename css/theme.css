@@ -646,7 +646,7 @@ body {
 .text0 {
 	position: absolute;
 	right: 0;
-	color:  rgb(2, 178, 185);
+	color:  rgb(133, 80, 120);
 	margin-top: 309px;
 	margin-right: 377px;
 	font-family: Lucida Sans Unicode;
@@ -655,11 +655,12 @@ body {
 
 .text1 {
 	position: absolute;
-	color: rgb(38, 67, 87);
-	margin-top: 230px;
-	margin-left: 405px;
+	right: 0;
+	color: rgb(38, 67, 87);/*rgb(38, 67, 87)*/
+	margin-top: 324px;
+	margin-right: 147px;
 	font-family: Lucida Sans Unicode;
-	font-size: 35px;
+	font-size: 30px;
 
 }
 
@@ -669,7 +670,7 @@ body {
 
 	margin-top: 380px;
 	margin-right: 52px;
-	color: rgb(2, 178, 185);
+	color: rgb(133, 80, 120);/*rgb(2, 178, 185)*/
 	width: 500px;
 	line-height: 45px;
 	font-family: Lucida Sans Unicode;
