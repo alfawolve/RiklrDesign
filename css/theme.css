@@ -10,7 +10,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 13;
-    box-shadow: 0 1px 0 #333333;
+    box-shadow: 0px 5px 10px 1px #333333;
 	background-color: #333333;
     background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#3F3F3F), to(#222222));
     background-image: -webkit-linear-gradient(top, #3F3F3F 0%, #222222 100%);
@@ -31,7 +31,7 @@ body {
 }
 
 #riklrTitle > img {
-	margin-top: 6px;
+	margin-top: 3px;
 	max-height: 35px;
 	position: absolute;	
 }
