@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style = "height:100%;">
   <head>
     <meta charset="utf-8">
     <title>Riklr</title>
@@ -32,7 +32,7 @@
     <script>$('.dropdown-toggle').dropdown();</script> 
   </head>
 
-  <body>
+  <body style  = "height: 100%;">
 
     <div id = "header">
 
@@ -41,13 +41,13 @@
       <div class="container" style="width:95%;">
          
          <div id = "riklrTitle">
-        <img img src="img/riklr4.png">
+        <img img src="img/riklr5.png">
       </div>
     </div>
                     
         <ul class="nav pull-right">
           <li class="dropdown pull-right">
-            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-wrench icon-white"></i><b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-wrench "></i><b class="caret"></b></a>
             <ul class="dropdown-menu ">
                 <li><a href="#" onClick="logout();">Logout</a></li>
             </ul>
@@ -56,7 +56,7 @@
 
         <ul class="nav pull-right">
           <li class="dropdown pull-right">
-            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-bell icon-white"></i><div class = "notifNumber">(3)</div></a>
+            <a href="#" class="dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-bell "></i><div class = "notifNumber">(3)</div></a>
             <ul class="dropdown-menu ">
                 <li><a href="#" onClick="logout();">Logout</a></li>
             </ul>
@@ -65,7 +65,7 @@
 
         <ul class="nav pull-right">
           <li class="dropdown pull-right">
-            <a href="#" class=" dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-comment icon-white"></i><div class = "notifNumber">(5)</div></a>
+            <a href="#" class=" dropdown-toggle pull-right" data-toggle="dropdown"><i class="icon-comment "></i><div class = "notifNumber">(5)</div></a>
             <ul class="dropdown-menu ">
                 <li><a href="#" onClick="logout();">Logout</a></li>
             </ul>
@@ -92,24 +92,368 @@
 
       <ul style = "display: block;">       
         
-        <li><a href="#"><img class = "profile" src="img/profile.png"><span>Profile</span></a></li>
+        <li><a id = "dp" href="#"><img class = "profile" src="img/profile.png"></a></li>
 
-        <li><a href="#"><img  src="img/home.png"><span>Home</span></a></li>
+        <li><a href="#"><img  src="img/home6.png"><span>Home</span></a></li>
 
-        <li class = "active"><a href="#"><img  src="img/chat-icon.png"><span>Messages</span></a></li>
+        <li class = "active"><a href="#"><img  src="img/chat-icon2.png"><span>Messages</span></a></li>
 
-        <li><a href="#"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
-
-        <li><a href="#"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>         
+                 
 
       </ul>
 
     </div>
 
       <div id = "mainframe">
+
         <div class = "container-fluid chatCover">
 
-          
+
+            <div class = "messagesList">
+
+              <div class = "messagesHeader">
+                <div class = "messagesHeaderText">All Messages</div>
+              </div>              
+
+              <div class = "messageContainer">
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/2.jpg">
+
+                <div class = "messageShortNew">
+
+                  <div class = "arrowLeftNew">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Enchantress Bambi
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/4.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Winter Wyrn
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainerActive">
+
+                <img class = "messageProfilePic" src="img/5.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lina Slayer
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+              <div class = "messageContainer">
+
+                <img class = "messageProfilePic" src="img/1.jpg">
+
+                <div class = "messageShort">
+
+                  <div class = "arrowLeft">
+                  </div>
+
+                  <div class = "messageShortText">
+                    <p >
+                       Lyralei Windrunner
+                    </p>
+                    <p>
+                      <small>2:15 PM</small>
+                    </p>
+                </div>
+                </div>
+              
+
+              </div>
+
+            </div>
+
+
+
+
+
             
             <div class = "chatBody">
               
