@@ -234,6 +234,18 @@ body {
 	margin-top: -11px;
 }
 
+.cornerImageNew {	
+	position: absolute;
+	z-index: 0;
+	max-width: 35px;
+	max-height: 40px;
+	padding-left: 130px;
+	margin-top: -3px;
+	right:0;
+	margin-right: 13px;
+}
+
+
 .nameBox {
 	background: #000;
 	background: -webkit-gradient(linear, center top, center bottom, from(transparent), to(rgba(0, 0, 0, .7)));
@@ -314,11 +326,10 @@ body {
 }
 
 .dateBox {
-	background: #000;
-	background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, .4)), to(rgba(0, 0, 0, .7)));
-	background: -webkit-linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .4) );
+	
+	background: -webkit-linear-gradient(rgba(255, 255, 255, .7) , rgba(255, 255, 255, .7) );
 	top: 0;	
-	color: #fff;
+	color: #4d4d4d;
 	display: block;
 	left: 10;
 	margin-top: 4px;
@@ -326,14 +337,28 @@ body {
 	margin-left: 0px;
 	position: absolute;
 	width: 90.5%;
+	height:30px;
 	word-wrap:break-word;	
 	text-align: center;
-	font-size: 17px;
-	border:1px solid black;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.checkGif {
+	position: absolute;
+	max-height:28px; 
+	right: 0;
+	top: 0;
+	margin-top:1px; 
+	margin-right:1px;
 }
 
 .dateText {
-	margin-left: 2px;
+	margin-top: 5px;
+	margin-left: -10px;
+	font
+	/*font-family: Lucida Sans Unicode;*/
 }
 
 
