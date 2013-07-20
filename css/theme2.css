@@ -382,10 +382,12 @@ body {
 .modal {
 	background-color: #2A2A2A;
 }
+
 #myModal{
 	min-height: 400px;
 	min-width: 750px;
 }
+
 .modalHomeHeader {
 	border-bottom: 0px;
 	background-color: #121212;	
@@ -441,6 +443,119 @@ body {
 	color:white;
 	font-size:25px;
 }
+
+
+/*.cornerImageModal {	
+	position: absolute;
+	z-index: 0;
+	max-width: 50px;
+	max-height: 60px;
+	padding-left: 304px;
+	margin-top: -4px;
+	
+}
+*/
+
+
+.firstName {
+	position: absolute;
+	left: 380px;
+	top: 20px;
+	color: rgb(221, 221, 221);
+	font-weight: normal;
+	font-size: 42px;
+}
+
+.locationName {
+	position: absolute;
+	left: 385px;
+	top: 61px;
+	color: rgb(221, 221, 221);
+	font-size: 23px; 
+}
+
+.interestedIn {
+	position: absolute;
+	left: 382px;
+	top: 220px;
+
+}
+
+.locationIcon {
+	max-height: 30px;
+}
+
+.checkIcon {
+	max-height: 42px;
+}
+
+.heartIcon {
+	max-height: 28px;
+}
+
+
+.relationshipStatus {
+	position: absolute;
+	left: 382px;
+	top: 100px;
+	color: rgb(172, 219, 215);
+	font-size: 23px;
+
+}
+
+.helpText1 {
+	margin-left: 50px;
+	margin-top: -38px;
+	color: rgb(221, 221, 221);
+	font-size: 15px;
+
+}
+
+
+
+.interestedLabel {
+	margin-top: 15px;
+	margin-left: 126px;
+	/*color: rgb(221, 221, 221);
+	font-size: 15px;*/
+
+}
+
+
+.interestedInArrow {
+	max-width: 58px;
+	margin-left: 88px;
+	
+	margin-top: -27px;
+}
+
+
+.starRate {
+	position: absolute;
+	left: 386px;
+	top: 290px;
+}
+
+.rating {
+	font-size: 39px;
+	margin-left: 47px;
+	margin-top: -28px;
+	color: rgb(221, 221, 221);
+}
+
+.starIconModal {
+	max-height: 39px;
+}
+
+.helpText2 {
+
+	margin-left: 102px;
+	margin-top: -20px;
+	color: rgb(221, 221, 221);
+	font-size: 15px;
+
+}
+
 
 .sideImage {
 	float:left;
